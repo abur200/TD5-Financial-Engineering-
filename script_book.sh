@@ -8,6 +8,7 @@ def main():
     book.insert_buy(2, 11.0)
     book.insert_sell(1, 10.0)
     book.insert_sell(10, 10.0)
+    book.affichage_book()
 if __name__ == "__main__":
     main()
 
